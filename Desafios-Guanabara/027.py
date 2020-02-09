@@ -1,0 +1,5 @@
+nome = input('Informe seu nome : ').strip()
+nome_separado = nome.split()
+i = nome.count(' ')
+print('Primeiro nome : {}' .format(nome_separado[0]))
+print('Ultimo nome : {}' .format(nome_separado[i]))

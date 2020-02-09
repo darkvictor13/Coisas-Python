@@ -1,0 +1,23 @@
+n = int(input('Digite um numero : '))
+t = 1
+print('A tabuada do {} eh :' .format(n))
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1
+print('{} x {} = {}' .format(n, t, (n * t)))
+t = t + 1

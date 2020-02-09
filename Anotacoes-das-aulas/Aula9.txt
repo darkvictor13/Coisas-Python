@@ -1,0 +1,44 @@
+Analise de str :
+    fatiamento, vamos usar como exemplo a str texto
+    texto[comeco:fim:pula_char]
+    Ex :
+        texto = 'ola victor td bem'
+        print('{}' .format(texto[4:10]))
+    Isso vai printar victor
+
+    Ex 2 :
+        print('{}' .format(texto[:4]))
+    Isso vai printar ola
+
+    Ex 3 :
+        print('{}' .format(texto[4:10:2]))
+    Isso vai printar vco
+
+    O objeto str tem varios metodos
+    *count(char) conta a ocorrencia desse char
+    *len(string) fala o tamanho da string
+    *find(string) acha uma string dentro da original exemplo
+        texto.find('victor') -> 4
+    Tambem temos o operador in para fazer a mesma coisa do find
+    porem somente retornando resultado bolleano ao inves do indice
+
+As strings sao imutaveis mas nos temos como altera-las com metodos
+    replace('original','novo')
+        Ex :
+        texto.replace('victor','jao')
+        print('{}' .format(texto))
+        Isso vai printar : ola jao td bem
+    Igual em c nos temos o upper lower e as funcoes da string.h
+    Porem aqui elas sao metodos da classe str
+    *Para transformar todo o texto em maiusculo
+        texto.upper()
+    tambem temos os metodos diferentes do C, como 
+    capitalize() -> deixa td minusculo menos a 1 letra da str
+    title() -> A 1 letra de cada palavra fica maiscula
+    strip() -> Remove os espacos no comeco e no fim da string
+    rstrip() -> Remove so os do fim da string
+        -> esse r vem de right por isso ele so trata os caracteres da direita
+    lstrip() -> Remove os caracteres da esquerda
+Dividir strings
+    text.split()
+    ' '.join(text)

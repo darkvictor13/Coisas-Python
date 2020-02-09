@@ -1,0 +1,16 @@
+Como importar uma biblioteca em python :
+  import nome_da_biblioteca
+Porem a gente pode importar apenas algumas funcionalidades da biblioteca ex :
+  from nome_da_biblioteca import funcionalidade
+
+Essas funcionalidades sao metodos de objeto  entao para usa-las faca assim :
+  Vamos usar ler um numero e achar a raiz
+    import math
+    num = int(input('Digite um num'))
+    raiz = math.sqrt(num)
+Preceba como sqrt eh um metodo dentro de math
+
+Se vc importar usando o from entao todos os metodos sao chamados como funcoes em C
+  from math import sqrt
+  num = int(input('Digite um num'))
+  raiz = sqrt(num)

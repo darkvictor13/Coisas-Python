@@ -1,0 +1,10 @@
+print('Entre com 2 valores :\n')
+num1 = int(input("Digite o primeiro numero : "))
+num2 = int(input("Digite o segundo numero : "))
+
+print('A divisao entre os dois eh = {:.1f}' .format(num1 / num2))
+print('A divisao inteira entre os dois eh = {}' .format(num1 // num2))
+print('A multiplicacao entre os dois eh = {}' .format(num1 * num2))
+print('A exponenciacao entre os dois eh = {}' .format(num1 ** num2))
+print('A soma entre os dois eh = {}' .format(num1 + num2))
+print('A subtracao entre os dois eh = {}' .format(num1 - num2))

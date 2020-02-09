@@ -1,0 +1,8 @@
+nome = input('Digite seu nome completo : ').strip()
+print('Seu nome transformado para Maiusculo eh :', end=' ')
+print(nome.upper())
+print('Seu nome transformado para minusculo eh : ', end='')
+print(nome.lower())
+# print('Seu nome tem {} letras validas'.format(len(''.join(nome.split()))))
+print('Seu nome tem {} letras validas' .format(len(nome) - nome.find(' ')))
+print('Seu primeiro nome eh : {}'.format(nome.split()[0]))
