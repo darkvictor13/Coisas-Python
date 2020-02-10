@@ -3,5 +3,16 @@
     "python.linting.pycodestyleEnabled": true,
     "python.formatting.provider": "autopep8",
     "editor.fontSize": 18,
+    "editor.tabSize": 2,
     "editor.mouseWheelZoom": true
+    
+    //*Extensoes Para Python
+    //Python, da microsoft
+    //sinceramente nao sei quais sao boas baixei algumas acho q muitas delas sao meio inuteis
+
+    //*Extensoes P deixa bonito
+    //indent-rainbow
+    //Rainbow Brackets
+    //Bracket Pair Colorizer
+    //Um theme qualquer to usando Dracula
 }
